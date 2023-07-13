@@ -23,6 +23,9 @@
                 compareResult = compareSuggestAndTarget(suggest, target);
                 Console.WriteLine(compareResult);
             } while (compareResult != GameResults.Equal);
+
+            ClassRoom classRoom = new ClassRoom();
+
         }
 
 
